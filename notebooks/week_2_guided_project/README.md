@@ -1,7 +1,7 @@
 # Profitable App Profiles for the App Store and Google Play Markets
 ## :rocket: Introduction
 
-Dataquest is an online course platform that has guided projects as a methodology for consolidating the knowledge passed on. In the Data Engineer path, the module [module name] has the guided project: Profitable App Profiles for the App Store and Google Play Markets. As requested in the discipline Algorithms and Data Structures II (DCA 0209) of the Computer Engineering course at the Federal University of Rio Grande do Norte, this repository contains the resolution of that project using the object-oriented programming (OOP) methodology.
+Dataquest is an online course platform that has guided projects as a methodology for consolidating the knowledge passed on. In the Data Engineer path, the module [Python for Data Engineering: Fundametals Part II](https://www.dataquest.io/course/python-fundamentals-de-ii/) has the guided project: Profitable App Profiles for the App Store and Google Play Markets. As requested in the discipline Algorithms and Data Structures II (DCA 0209) of the Computer Engineering course at the Federal University of Rio Grande do Norte, this repository contains the resolution of that project using the object-oriented programming (OOP) methodology.
 
 ## :clipboard: Dataset 
 
