@@ -3,6 +3,10 @@
 
 Dataquest is an online course platform that has guided projects as a methodology for consolidating the knowledge passed on. In the Data Engineer path, the module [Python for Data Engineering: Fundametals Part II](https://www.dataquest.io/course/python-fundamentals-de-ii/) has the guided project: Profitable App Profiles for the App Store and Google Play Markets. As requested in the discipline Algorithms and Data Structures II (DCA 0209) of the Computer Engineering course at the Federal University of Rio Grande do Norte, this repository contains the resolution of that project using the object-oriented programming (OOP) methodology.
 
+<center><img width="800" src="images/apps.png"></center> 
+
+Source: [KindPNG](https://www.kindpng.com/imgv/hTioxib_mobile-application-development-amman-mobile-app-development-png/)
+
 ## :clipboard: Dataset 
 
 Let's say we're working as data analysts for a company that builds mobile apps for Android and iOS, and our job is to enable our team of developers to make data-driven decisions regarding the type of apps they build. Let's also assume that only free apps are created at our company and that our main source of income consists of in-app advertisements. This means that our company's revenue is directly related to the number of users of our app. So our goal for this project is to analyze data to help our developers understand what types of apps are likely to attract the most users.
