@@ -80,4 +80,4 @@ The image below shows the graph of the same experiment performed earlier for the
 
 As we can see, the curve follows a linear growth trend with increasing vector size. Comparing the two images, it is possible to notice a big difference in relation to the y axis, that is, the time axis. So to highlight this difference, the following image shows the two curves plotted on the same graph.
 
-<center><img width='500' src="images/comparison.png"></center>
+<center><img width='500' src="images/Comparison.png"></center>
