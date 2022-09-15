@@ -4,4 +4,4 @@ This repository contains solutions to job interview problems in the data structu
 
 ## Solutions
 
-1. [Two Number Sum](https://github.com/Morsinaldo/data_structure_II/blob/main/job_interview_troubleshooting/two_number_sum/Two_Number_Sum.ipynb)
+1. [Two Number Sum](https://github.com/Morsinaldo/data_structure_II/blob/main/job_interview_troubleshooting/two_number_sum)
