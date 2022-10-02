@@ -3,13 +3,17 @@
 ## Introduction and Dataset
 The current climate crisis is one of the biggest problems facing modern humanity. The current climate crisis is one of the biggest problems facing modern humanity. With this in mind, one dataset that can be found on Kaggle is the [Reddit Climate Change Dataset](https://www.kaggle.com/datasets/pavellexyr/the-reddit-climate-change-dataset) with some sentiment data present in the Reddit comments about climate change. Futhermore dataset has a type of datapoint (type), an id, a subreddit id, a subreddit name, timestamp of the comment's creation, permalink to the comment on Reddit, comment's body text and a comment's score.
 
+<center><img width="500" src="images/dataset.jpeg"></center>
+
+Source: [Kaggle](https://www.kaggle.com/datasets/pavellexyr/the-reddit-climate-change-dataset)
+
 Another characteristic of the dataset is that it has about 4 million and 600 thousand lines, which was interesting for the Data Structure II discipline project on algorithm complexity. Thus, the task is to explore the performance of three functions with two different implements: one slower and one faster. The three main functions are:
 
 1.   Given an id of a message on Reddit, return all information about the message;
 2.   Given a lower and upper bound of the "sentiment" column, return all messages with sentiment values between the lower and upper bounds;
 3.   Given a parameter value, return two messages whose sum of the value of the "score" column is equal to the parameter. Return -1 if it doesn't exist.
 
-You can check complete code on [notebook] in this paste(./note.ipynb)
+You can check complete code on [notebook](./note.ipynb) in this paste.
 
 This project seeks to adapt the guided project "Building Fast Queries on a CSV" from the *Algorithms Complexity* course of the Data Engineer path, made by [Dataquest](Dataquest.io). So, first we created a class called Climate that receives as a parameter the name of the csv file to be initialized, as shown in the code below:
 
