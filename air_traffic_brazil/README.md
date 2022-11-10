@@ -2,7 +2,7 @@
 
 This work consists of an analysis of the graph of all flights registered by ANAC (Agência Nacional de Aviação Civil - National Civil Aviation Agency) as part of the unit grade of the Algorithms and Data Structures II discipline at the Federal University of Rio Grande do Sul. Norte, taught by [Ivanovitch Silva](https://github.com/ivanovitchm). This work was done by me and the data was obtained from [Alvaro's Github](https://github.com/alvarofpp/dataset-flights-brazil) repository.
 
-<center><img width="500" src="images/assortativity.png"></center>
+<p align='center'><img width="500" src="images/assortativity.png"></p>
 
 To reproduce just my steps, you can open the [notebook](/notebook.ipynb) in [Google Colab](https://colab.research.google.com/) and upload the [air_traffic_brazil.graphml](/air_traffic_brazil.graphml) file without running the first section of the notebook. But if you want to reproduce Alvaro's steps too, just run all sections of the notebook in Google Colab or create a virtual environment and install the [requirements.txt](dataset-flights-brazil/requirements.txt) file before running the notebook. Inside of [dataset-flights-brazil](/datasets-flights-brazil) you can find Alvaro's original README and his files to extract data and transform to graphml file.
 
@@ -97,9 +97,13 @@ plt.show()
 
 This code generate the following figure:
 
-<center><img width='500' src='./images/degree_assortativity.png'></center>
+<p align='center'><img width='500' src='./images/degree_assortativity.png'></p>
 
-The graph above shows that as the node degree increases, the neighbor's average degree decreases. This shows us that the network tends to be disassortative with respect to degree. Let's check the degree assortativity coefficient with the following code:
+The graph above shows that as the node degree increases, the neighbor's average degree decreases. This shows us that the network tends to be disassortative with respect to degree. We can see same graph by for regions:
+
+<p align='center'><img src='./images/degree_assortativity_all.png'></p>
+
+As we can see in the image above, the regions of Brazil tend to follow the same behavior as the country: the networks of the regions tend to be disassortative in relation to the degree. So let's check the degree assortativity coefficient with the following code:
 
 ```python
 nx.degree_assortativity_coefficient(G_brazil)
