@@ -59,6 +59,16 @@ In addition, we generate the mixing matrix, which correlates
 nx.attribute_mixing_matrix(G_brazil,'region')
 ```
 
+**Mixing Matrix**
+ Region           |    Midwest    |     North      |      Northeast     |      South     | Southeast 
+ :--------:| :--------: | :------:   | :--------: | :--------: | :--------:
+1| **0.07358156** | 0.01340869 | 0.04022606 | 0.0120789  | 0.0070922
+2| 0.01340869 | **0.0802305**  | 0.05474291 | 0.0106383  | 0.01983599
+3| 0.04022606 | 0.05474291 | **0.17309397** | 0.03390957 | 0.02759309
+4| 0.0120789  | 0.0106383  | 0.03390957 | **0.13453014** | 0.02293883
+5| 0.0070922  | 0.01983599 | 0.02759309 | 0.02293883 | **0.05363475**
+
+
 In the Mixing Matrix, we can see that North (NORTHEAST) and South-East (SOUTHEAST) are the regions with the highest percentage of connection with themselves. If you take a look at [IPEA (2009)](https://www.ipea.gov.br/presenca/index.php?option=com_content&view=article&id=26&Itemid=19), you will see that the North region has fewer highways than the other regions. So we can infer that airports there are more used for travel between some states or some cities. Thus, in other regions with more highways, road transport may be used more than air transport, causing the percentage of airport connections in these regions to be lower.
 
 Next, we check the assortativity coefficient of the network with the following code:
@@ -206,25 +216,8 @@ print(path4)
 print(f"{G_brazil.nodes[path4[0]]['name']} -> {G_brazil.nodes[path4[1]]['name']} -> {G_brazil.nodes[path4[2]]['name']}")
 ```
 
-The outputs of the code above can be checked below:
-
-```python
-# Variable path1
-['SBEG', 'SBSV', 'SBJA']
-MANAUS -> SALVADOR -> JAGUARUNA
-
-# Variable path2
-['SBJA', 'SBBR', 'SNBR']
-JAGUARUNA -> BRASÍLIA -> BARREIRAS
-
-# Variable path3
-['SNBR', 'SBRJ', 'SBTG']
-BARREIRAS -> RIO DE JANEIRO -> TRÊS LAGOAS
-
-# Variable path4
-['SBTG', 'SBGR', 'SIMK']
-TRÊS LAGOAS -> GUARULHOS -> FRANCA
-```
+The outputs of the code above can be checked in the image below:
+<p align='center'><img src='./images/connected_components.png' width='500'></p>
 
 Thus, in each walk, 2 paths were performed, totaling 8 paths.
 
