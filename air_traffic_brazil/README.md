@@ -217,7 +217,7 @@ print(f"{G_brazil.nodes[path4[0]]['name']} -> {G_brazil.nodes[path4[1]]['name']}
 ```
 
 The outputs of the code above can be checked in the image below:
-<p align='center'><img src='./images/connected_components.png' width='500'></p>
+<p align='center'><img src='./images/connected_components.png' width='800'></p>
 
 Thus, in each walk, 2 paths were performed, totaling 8 paths.
 
