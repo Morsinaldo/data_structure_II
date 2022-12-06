@@ -10,6 +10,8 @@ This repository contains files of  Algorithms and Data Structures II (DCA0209) o
 
 - [Brazil Air Traffic Graph](/air_traffic_brazil)
 
+- [Network with Wikipedia](./network_with_wikipedia/)
+
 ## :books: References
 - Ivanovitch's Repo[![Repository](https://img.shields.io/badge/-Repo-191A1B?style=flat-square&logo=github)](https://github.com/ivanovitchm/datastructure)
 
