@@ -18,7 +18,9 @@ To start, we built a data pipeline to automate the process of extracting, pre-pr
 
 Basically, the pipeline receives as parameter a SEED and a set of STOPS. That is, the seed is the page from which it will start collecting data, while STOPS is a list containing some pages on which it should stop and not collect quotes from pages that are quoted by those on the list. Thus, the pipeline receives the output of one function and passes it as a param to the next function.
 
-For example, the `create_graph` step receives SEED and STOPS and returns the raw graph. Next, `preprocessing` receives the raw graph and returns a processed graph. Finally, `truncate` receives the preprocessed graph and returns a graph with some duplicate nodes contracted. In addition, the last step saves the final graph as a .graphml file and reports the results obtained.
+For example, the `create_graph` step receives the SEED and STOPS and returns the raw graph. Next, the `preprocessing` step receives the raw graph and returns a processed graph for the `truncate` step to eliminate some duplicate nodes and contract them. In addition, the last step saves the final graph as a .graphml file and reports the results obtained. Finally, the `explore_network` step reports all the graphs with the metrics studied in class, as well as the .txt files containing the extractions performed and the processing performed on the graph.
+
+All outputs from the pipeline can be reached in [pipeline_outputs](./pipeline_outputs/) folder.
 
 
 ## Pre-processing the network
@@ -124,3 +126,25 @@ Then, plotting the histogram with the CDF and PDF functions, it is possible to s
 <p align="center">
   <img src="./images/grafico-closeness.png">
 </p>
+
+After that, it was made a plot which to compare the metrics. On the diagonal, it's possible to notice that the distributions have a long tail to the right side, with a positive symmetry, where many nodes have a small degree, unlike the eigenvector, in which few nodes have an important neighborhood. Also, the eigenvector and closeness have an exponencial trend, i. e., as one increases, the other increases as well. However, there is a limitation in this trend, in that after a certain point, this is no longer a valid thing.
+
+<p align="center">
+  <img src="./images/all.png">
+</p>
+
+### Core Decomposition
+
+Core decomposition is relacioned to the cores hierarchy, in which the nodes are deleted recursively in a network. For this, there are two metrics: k-core and k-shell. A k-core refers to a subnet in which all nodes have at least k neighbors. The nodes eliminated to reach a um k-core are called shell.
+
+By analyzing the network, it was possible to see that it has 106 layers. Therefore, in the figure below it is possible see that the maximum k-core is 168, indicated with blue color, and the k-shell is 123, represented with red color.
+
+<p align="center">
+  <img src="./images/core_d_2_back_white.png">
+</p>
+
+## References
+[Ivanovitch's Repository](https://github.com/ivanovitchm/datastructure)
+
+[Vladimir Batagelj and Matjaz Zaversnik. An o (m) algorithm for cores
+decomposition of networks](https://arxiv.org/pdf/cs/0310049.pdf)
