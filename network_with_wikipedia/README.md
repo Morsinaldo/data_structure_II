@@ -143,6 +143,21 @@ By analyzing the network, it was possible to see that it has 106 layers. Therefo
   <img src="./images/core_d_2_back_white.png">
 </p>
 
+## How to execute
+
+To run this project with your `SEED`, you only need to change this parameter and the stop lists in the [Data Pipeline Notebook](./notebooks/data_pipeline.ipynb), as shown below.
+
+```python
+# setup seed and stops
+SEED = "2022 FIFA World Cup".title()
+STOPS = ("FIFA",
+         "FIFA 2022",
+         "FIFA World Cup",
+         "2022 tournament")
+```
+
+After that, just run all the cells and the pipeline will return all the results and the .graphml file to you.
+
 ## References
 [Ivanovitch's Repository](https://github.com/ivanovitchm/datastructure)
 
