@@ -8,6 +8,8 @@ In this way, the network from wikipedia links, starting with `2022 FIFA World Cu
 
 It is important to highlight that this work was carried out in a group. This work was done by [Mariana Azevedo](https://github.com/marianabritoazevedo) [![Repository](https://img.shields.io/badge/-Repo-191A1B?style=flat-square&logo=github)](https://github.com/marianabritoazevedo/data-structure-ii/tree/main/network_with_wikipedia),  [Morsinaldo Medeiros](https://github.com/Morsinaldo/data_structure_II/tree/main/network_with_wikipedia) [![Repository](https://img.shields.io/badge/-Repo-191A1B?style=flat-square&logo=github)](https://github.com/Morsinaldo/data_structure_II/tree/main/network_with_wikipedia) and [Thaís Medeiros](https://github.com/thaisaraujo2000/algorithms_datastructure_ii/tree/main/week%2013) [![Repository](https://img.shields.io/badge/-Repo-191A1B?style=flat-square&logo=github)](https://github.com/thaisaraujo2000/algorithms_datastructure_ii/tree/main/week%2013)
 
+You can check out our video about this project on [Youtube](https://www.youtube.com/watch?v=setncvImDgY)
+
 ## Data Pipeline
 
 To start, we built a data pipeline to automate the process of extracting, pre-processing, reporting the results, and saving the artifact. Thus, our pipeline consists of three functions or steps, as shown in the figure below. 
