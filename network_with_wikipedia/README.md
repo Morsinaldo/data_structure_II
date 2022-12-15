@@ -173,6 +173,8 @@ In this way, it was decided to make a second visualization referring to the degr
 
 <hr>
 
+:information_source: Repository with more details [here](https://github.com/marianabritoazevedo/gephi-visualization-degree)
+
 :mag_right: Interactive page [here](https://marianabritoazevedo.github.io/gephi-visualization-degree/network/)
 
 <hr>
@@ -196,6 +198,8 @@ After performing this division on the data, a new dataset was created, imported 
 #### Visualization 3: community
 
 <hr>
+
+:information_source: Repository with more details [here](https://github.com/marianabritoazevedo/gephi-visualization-community)
 
 :mag_right: Interactive page [here](https://marianabritoazevedo.github.io/gephi-visualization-community/network/)
 
