@@ -147,7 +147,7 @@ By analyzing the network, it was possible to see that it has 106 layers. Therefo
 
 ## Network Visualization
 
-It is also possible to get other ways to visualize our network through tools such as [Gephi](https://gephi.org/), with the `SigmaExporter` plugin and [Gephisto](https://jacomyma.github.io/gephisto/). The productions of these tools will be explored separately for each tool.
+It is also possible to get other ways to visualize our network through tools such as [Gephi](https://gephi.org/), with the `SigmaExporter` plugin, [Retina](https://ouestware.gitlab.io/retina/beta/), and [Gephisto](https://jacomyma.github.io/gephisto/). The productions of these tools will be explored separately for each tool.
 
 ### Visualization with Gephi and SigmaExporter
 
@@ -236,6 +236,10 @@ The second visualization was done using the file [community.graphml](./graph_fil
 </p>
 
 In the graph divided by communities, it is possible to see the prominence of nodes containing, mainly, the name of players, the name of teams, some newspapers, among others. Thus, it is possible to extract insights similar to those mentioned above, as well as others such as: The highlighted players played in which teams of the leagues also mentioned? Have the highlighted cities hosted or will host a World Cup? And so on.
+
+### Visualization using Retina
+Retina is a tool developed that you to visualize the network in a more interactive way. The tool is very simple to use, you just need to upload the file and it generates the visualization. For this, the file [community_metrics.graphml](./graph_files) was used.
+You can watch the [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://www.loom.com/share/f1086e48e7764d9ba50e6928d5bfe3b2) to see details about the visualization.
 
 ## How to execute
 
