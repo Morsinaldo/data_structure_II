@@ -147,7 +147,7 @@ By analyzing the network, it was possible to see that it has 106 layers. Therefo
 
 ## Network Visualization
 
-It is also possible to get other ways to visualize our network through tools such as [Gephi](https://gephi.org/), with the `SigmaExporter` plugin, [Retina](https://ouestware.gitlab.io/retina/beta/), a plugin of Gephi tool and [Gephisto](https://jacomyma.github.io/gephisto/). The productions of these tools will be explored separately for each tool.
+It is also possible to get other ways to visualize our network through tools such as [Gephi](https://gephi.org/), with the `SigmaExporter` plugin and [Gephisto](https://jacomyma.github.io/gephisto/). The productions of these tools will be explored separately for each tool.
 
 ### Visualization with Gephi and SigmaExporter
 
@@ -197,8 +197,6 @@ After performing this division on the data, a new dataset was created, imported 
 
 <hr>
 
-:information_source: Repository with more details [here](https://github.com/marianabritoazevedo/gephi-visualization-community)
-
 :mag_right: Interactive page [here](https://marianabritoazevedo.github.io/gephi-visualization-community/network/)
 
 <hr>
@@ -233,7 +231,7 @@ The second visualization was done using the file [community.graphml](./graph_fil
 <img src='./images/gephisto_community.png'>
 </p>
 
-In the graph divided by communities, it is possible to see the prominence of nodes containing, mainly, the name of players, the name of teams, some newspapers, among others. Thus, it is possible to extract insights similar to those mentioned above, as well as others such as: The highlighted players played in which teams of the leagues also mentioned? Have the highlighted cities hosted or will host a World Cup? And so on
+In the graph divided by communities, it is possible to see the prominence of nodes containing, mainly, the name of players, the name of teams, some newspapers, among others. Thus, it is possible to extract insights similar to those mentioned above, as well as others such as: The highlighted players played in which teams of the leagues also mentioned? Have the highlighted cities hosted or will host a World Cup? And so on.
 
 ## How to execute
 
